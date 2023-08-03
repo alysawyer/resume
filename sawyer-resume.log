@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  2 AUG 2023 18:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  2 AUG 2023 18:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**/Users/asawyer/Desktop/CS/resume/main
-(/Users/asawyer/Desktop/CS/resume/main.tex
+**/Users/asawyer/Desktop/CS/resume/sawyer-resume
+(/Users/asawyer/Desktop/CS/resume/sawyer-resume.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -194,7 +194,7 @@ Package: enumitem 2019/06/20 v3.9 Customized lists
 \enitdp@description=\count272
 )
 
-/Users/asawyer/Desktop/CS/resume/main.tex:19: LaTeX Error: Option clash for package hyperref.
+/Users/asawyer/Desktop/CS/resume/sawyer-resume.tex:19: LaTeX Error: Option clash for package hyperref.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -250,7 +250,7 @@ Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 ) (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/psnfss/charter.sty
 Package: charter 2020/03/25 PSNFSS-v9.3 (P.Dyballa) 
 )
-/Users/asawyer/Desktop/CS/resume/main.tex:38: Undefined control sequence.
+/Users/asawyer/Desktop/CS/resume/sawyer-resume.tex:38: Undefined control sequence.
 <argument> \undefinedpagestyle 
                                
 l.38 \pagestyle{fancy}
@@ -261,7 +261,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/asawyer/Desktop/CS/resume/main.tex:39: Undefined control sequence.
+/Users/asawyer/Desktop/CS/resume/sawyer-resume.tex:39: Undefined control sequence.
 l.39 \fancyhf
              {} % clear all header and footer fields
 The control sequence at the end of the top line
@@ -270,7 +270,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-/Users/asawyer/Desktop/CS/resume/main.tex:40: Undefined control sequence.
+/Users/asawyer/Desktop/CS/resume/sawyer-resume.tex:40: Undefined control sequence.
 l.40 \fancyfoot
                {}
 The control sequence at the end of the top line
@@ -280,7 +280,7 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-/Users/asawyer/Desktop/CS/resume/main.tex:41: LaTeX Error: Command \headrulewidth undefined.
+/Users/asawyer/Desktop/CS/resume/sawyer-resume.tex:41: LaTeX Error: Command \headrulewidth undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -292,7 +292,7 @@ Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-/Users/asawyer/Desktop/CS/resume/main.tex:42: LaTeX Error: Command \footrulewidth undefined.
+/Users/asawyer/Desktop/CS/resume/sawyer-resume.tex:42: LaTeX Error: Command \footrulewidth undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
@@ -307,8 +307,8 @@ LaTeX Font Info:    Trying to load font information for OT1+bch on input line 10
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/latex/psnfss/ot1bch.fd
 File: ot1bch.fd 2004/10/18 font definitions for OT1/bch.
 )
-No file main.aux.
-\openout1 = `main.aux'.
+No file sawyer-resume.aux.
+\openout1 = `sawyer-resume.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
@@ -330,7 +330,7 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 108.
 LaTeX Font Info:    ... okay on input line 108.
 Package hyperref Info: Link coloring OFF on input line 108.
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `sawyer-resume.out'.
 
 (/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -365,7 +365,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 225.
 
-/Users/asawyer/Desktop/CS/resume/main.tex:238: You can't use `\spacefactor' in math mode.
+/Users/asawyer/Desktop/CS/resume/sawyer-resume.tex:238: You can't use `\spacefactor' in math mode.
 \@->\spacefactor 
                  \@m {}
 l.238 ...{ Java, Python, C++, HTML/CSS, R, $\LaTeX
@@ -378,26 +378,26 @@ return to the right one by typing `I}' or `I$' or `I\par'.
 Missing character: There is no è in font cmex10!
 [1
 
-{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./main.aux)
+{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./sawyer-resume.aux)
 
-Package rerunfilecheck Warning: File `main.out' has changed.
+Package rerunfilecheck Warning: File `sawyer-resume.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `main.out':
+Package rerunfilecheck Info: Checksums for `sawyer-resume.out':
 (rerunfilecheck)             Before: <no file>
 (rerunfilecheck)             After:  1E27A0473EF531A3B25540C345ECDD49;327.
  ) 
 Here is how much of TeX's memory you used:
  12824 strings out of 476025
- 225848 string characters out of 5779036
+ 225947 string characters out of 5779036
  1878388 words of memory out of 5000000
  33120 multiletter control sequences out of 15000+600000
  536838 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,7n,76p,326b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,7n,76p,335b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi9.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (1 page, 100242 bytes).
+Output written on sawyer-resume.pdf (1 page, 100242 bytes).
 PDF statistics:
  63 PDF objects out of 1000 (max. 8388607)
  43 compressed objects within 1 object stream
