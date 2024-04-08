@@ -15,7 +15,7 @@
 \usepackage[usenames,dvipsnames]{color}
 \usepackage{verbatim}
 \usepackage{enumitem}
-\usepackage[hidelinks]{hyperref}
+% \usepackage[hidelinks]{hyperref}
 \usepackage{tabularx}
 \input{glyphtounicode}
 \usepackage{xcolor}
@@ -31,15 +31,16 @@
 
 % serif
 % \usepackage{CormorantGaramond}
+
  \usepackage{charter}
  
 
 
-\pagestyle{fancy}
-\fancyhf{} % clear all header and footer fields
-\fancyfoot{}
-\renewcommand{\headrulewidth}{0pt}
-\renewcommand{\footrulewidth}{0pt}
+% \pagestyle{fancy}
+% \fancyhf{} % clear all header and footer fields
+% \fancyfoot{}
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
 
 % Adjust margins
 \addtolength{\oddsidemargin}{-0.5in}
@@ -123,12 +124,12 @@
   \resumeSubHeadingListStart
     \resumeSubheading
       {Harvey Mudd College}{August 2022 - May 2026}
-      {Bachelor of Science in \textbf{Computer Science and Math}, Major GPA: 3.6, Dean's List}{}
+      {Bachelor of Science in \textbf{Computer Science and Math}, Dean's List}{}
         \begin{itemize}\small
         \setlength\itemsep{0em}
         % Discrete Mathematics (c), Data Structures/Program Development(c), 
-            \item[--] \textbf{Relevant Coursework:} User Experience Research and Evaluation (TA), Data Structures/Program Development, Principles of Computer Science, Discrete Mathematics, Introduction to Computer Science.
-            \item[--] \textbf{Activities:} Wellness Director, Inclusive Campus Mentor, Mechanical Keyboard Club President, Society of Women Engineers. 
+            \item[--] \textbf{Relevant Coursework:} Data Structures/Program Development, Mathematical Analysis, Discrete Mathematics, Computability and Logic, Probability and Statistics, User Experience Research and Evaluation (TA), Principles of Computer Science.
+            % \item[--] \textbf{Activities:} Wellness Director, Inclusive Campus Mentor, Mechanical Keyboard Club President, Society of Women Engineers. 
           \end{itemize}
     \vspace{-5pt}
     \resumeSubheading
@@ -150,6 +151,24 @@
 %-----------EXPERIENCE----------- 
 \section{Professional Experience}
   \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Incoming Software Engineer Intern}{May 2024}
+    {NVIDIA}{}
+    \begin{itemize}\small
+    \setlength\itemsep{0em}
+      \item[--] Ignite program.
+    \end{itemize}
+
+    % \resumeSubheading
+    % {Data Analyst}{January 2023 - Present}
+    % {Claremont Graduate University}{}
+    % \begin{itemize}\small
+    % \setlength\itemsep{0em}
+    %   \item[--] Programming an interactive data visualization website for the CGU Cultural Property Disputes Resource using D3.js.
+    %   \item[--] Providing a resource for lawyers, journalists, and scholars to track information regarding 400+ cases of stolen artifacts.
+    % \end{itemize}
+  
     \resumeSubheading
       {Software Engineer Intern}{January 2023 - May 2023}
       {Samba TV}{}
@@ -169,7 +188,7 @@
         {Harvey Mudd College, advised by Professor David Nembhard}{}
         \begin{itemize}\small
         \setlength\itemsep{0em}
-            \item[--] Creating a model that analyzes biometric data to predict drone operator errors when identifying infrastructure faults.
+            \item[--] Creating a model that analyzes biometric EEG data to predict drone operator errors when identifying infrastructure faults.
         \end{itemize}
 
         \resumeSubheading
@@ -200,7 +219,7 @@
 \section{Projects}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Front-End Web Developer}{January 2023 - Present}
+      {Data Analyst}{January 2023 - Present}
       {Claremont Graduate University}{}
       \begin{itemize}\small
       \setlength\itemsep{0em}
@@ -213,8 +232,8 @@
     {P-ai Claremont Colleges Club}{}
     \begin{itemize}\small
     \setlength\itemsep{0em}
-      \item[--] P-recipe: Managing a team of 4, fully designed a computer vision project with transfer learning using ResNet with PyTorch.
-      \item[--] P-okemon: Used black box optimization with fmin in Javascript and Pokemon API to reverse engineer information in a battle.
+      \item[--] Managing a team of 4, fully designed a computer vision project with transfer learning using ResNet with PyTorch.
+      % \item[--] P-okemon: Used black box optimization with fmin in Javascript and Pokemon API to reverse engineer information in a battle.
 
     \end{itemize}
   \resumeSubHeadingListEnd
@@ -226,10 +245,10 @@
           {\textbf{Harvey S. Mudd Scholar} $|$ \emph{Received merit award  due to being identified as in the top 2\% of the applicant pool.}}{}
     \resumeProjectHeading
           {\textbf{Top 4 Debater in the Country} $|$ \emph{Placed in the top 4 at Nationals for Lincoln-Douglas debate, after qualifying out of 20,000+.}}{}
-    \resumeProjectHeading
-          {\textbf{300+ Volunteer Hours} $|$ \emph{At 30+ organizations through the National Charity League. Received Presidential Bronze Volunteer Award.}}{}
-          \resumeProjectHeading
-          {\textbf{Nonprofit Founder} $|$ \emph{Founded and ran a 2-week debate camp nonprofit for 200+ underprivileged debaters during COVID-19 for three years.}}{}
+    % \resumeProjectHeading
+    %       {\textbf{300+ Volunteer Hours} $|$ \emph{At 30+ organizations through the National Charity League. Received Presidential Bronze Volunteer Award.}}{}
+    %       \resumeProjectHeading
+    %       {\textbf{Nonprofit Founder} $|$ \emph{Founded and ran a 2-week debate camp nonprofit for 200+ underprivileged debaters during COVID-19 for three years.}}{}
 
     \resumeSubHeadingListEnd
   
@@ -239,7 +258,7 @@
 \section{Skills and Interests}
 \begin{itemize}[leftmargin=0.15in, label={}]
    \small{\item{
-    \textbf{Skills:}{ Python, Java, C++, JavaScript, HTML, CSS, R, $\LaTeX$, JSON, Linux, Git, Natural Language Processing, Excel.} \\
+    \textbf{Skills:}{ Python, Java, C++, JavaScript, HTML, CSS, R, LaTeX, JSON, Linux, Git, Natural Language Processing, Excel.} \\
     \textbf{Libraries:}{ NumPy, Matplotlib, PyTorch, Pandas, Beautiful Soup, OpenCV, Selenium, Gradio.} \\
     \textbf{Interests:}{ Building mechanical keyboards, running, photography, debate coaching.} \\
     % \textbf{Frameworks:}{ Hugo, WordPress} \\
