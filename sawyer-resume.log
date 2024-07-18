@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  8 APR 2024 09:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Homebrew) (preloaded format=pdflatex 2023.6.22)  18 JUL 2024 07:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -291,9 +291,9 @@ LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on 
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <10> not available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead on input line 117.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 245.
+(Font)              <9> on input line 246.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 245.
+(Font)              <6> on input line 246.
  [1
 
 {/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/map/pdftex/updmap/pdftex.map}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/base/8r.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free2.enc}{/opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc}] (./sawyer-resume.aux)
@@ -303,13 +303,13 @@ Package rerunfilecheck Info: File `sawyer-resume.out' has not changed.
 Here is how much of TeX's memory you used:
  12852 strings out of 476025
  226650 string characters out of 5779036
- 1880388 words of memory out of 5000000
+ 1879388 words of memory out of 5000000
  33136 multiletter control sequences out of 15000+600000
  535418 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,7n,76p,342b,433s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/fontawesome5/FontAwesome5Free-Solid.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/bitstrea/charter/bchb8a.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/bitstrea/charter/bchbi8a.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/bitstrea/charter/bchr8a.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/bitstrea/charter/bchri8a.pfb></opt/homebrew/Cellar/texlive/20230313_2/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on sawyer-resume.pdf (1 page, 93321 bytes).
+Output written on sawyer-resume.pdf (1 page, 93323 bytes).
 PDF statistics:
  86 PDF objects out of 1000 (max. 8388607)
  67 compressed objects within 1 object stream
