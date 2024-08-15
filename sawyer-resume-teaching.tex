@@ -1,0 +1,295 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,10pt]{article}
+\usepackage{hyperref}
+\usepackage{fontawesome5}
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+% \usepackage[hidelinks]{hyperref}
+\usepackage{tabularx}
+\input{glyphtounicode}
+\usepackage{xcolor}
+
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+
+ \usepackage{charter}
+ 
+
+
+% \pagestyle{fancy}
+% \fancyhf{} % clear all header and footer fields
+% \fancyfoot{}r
+% \renewcommand{\headrulewidth}{0pt}
+% \renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    %\color{blue}
+    \textbf{\huge \scshape Alyssa Sawyer} \\ \vspace{3pt}
+    \faEnvelope{} \href{asawyer@hmc.edu}{asawyer@hmc.edu} $\quad$ 
+    \faPhone{} \href{tel:6503957429}{(650) 395-7429} $\quad$
+    \faLinkedin{} \href{https://www.linkedin.com/in/alysawyer/}{@alysawyer} $\quad$
+    \faGlobe{} \href{https://alysawyer.com}{alysawyer.com} $\quad$
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Harvey Mudd College}{August 2022 - May 2026}
+      {Bachelor of Science in \textbf{Computer Science and Math}, Dean's List}{}
+        \begin{itemize}\small
+        \setlength\itemsep{0em}
+        % Discrete Mathematics (c), Data Structures/Program Development(c), 
+            \item[--] \textbf{Relevant Coursework:} Data Structures/Program Development, Mathematical Analysis, Discrete Mathematics, Computability and Logic, Probability and Statistics, User Experience Research and Evaluation (TA), Principles of Computer Science.
+            % \item[--] \textbf{Activities:} Wellness Director, Inclusive Campus Mentor, Mechanical Keyboard Club President, Society of Women Engineers. 
+          \end{itemize}
+    \vspace{-5pt}
+    \resumeSubheading
+      {Sequoia High School}{August 2018 - June 2022}
+      {International Baccalaureate Diploma, GPA: 4.45/4.0, CA Scholarship Federation Life Member, Honor Roll}{} 
+    \vspace{5pt}
+    \resumeSubheading
+      {College of San Mateo, Cañada College, Skyline College, and Foothill College}{August 2019 - June 2022}
+      {Dual Enrollment Program}{}
+        \begin{itemize}\small
+        \setlength\itemsep{0em}
+            \item[--] \textbf{Relevant Coursework:} Java Programming Methods, Python Programming, JavaScript for Programmers, Intro to Object-Oriented Program Design, Introduction to Web Design, Ethical Hacking, Linear Algebra, Differential Equations, Calculus III.
+        \end{itemize}    
+        
+        
+  \resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE----------- 
+\section{Professional Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+    {Solutions Architect Intern}{May 2024 - Present}
+    {NVIDIA}{}
+    \begin{itemize}\small
+    \setlength\itemsep{0em}
+      \item[--] Developing a RAG pipeline to rank 500+ resumes using LangChain, NVIDIA foundational models and Streamlit. 
+      \item[--] Ran tests to validate GPU cluster performance for external clients. Successfully completed team wide presentations. 
+    \end{itemize}
+
+    % \resumeSubheading
+    % {Data Analyst}{January 2023 - Present}
+    % {Claremont Graduate University}{}
+    % \begin{itemize}\small
+    % \setlength\itemsep{0em}
+    %   \item[--] Programming an interactive data visualization website for the CGU Cultural Property Disputes Resource using D3.js.
+    %   \item[--] Providing a resource for lawyers, journalists, and scholars to track information regarding 400+ cases of stolen artifacts.
+    % \end{itemize}
+  
+    \resumeSubheading
+      {Software Engineer Intern}{January 2023 - May 2023}
+      {Samba TV}{}
+      \begin{itemize}\small
+      \setlength\itemsep{0em}
+        \item[--] Developed a synthetic data set by naturally integrating ads in scenes to create 500k+ images using the COCO API.
+        \item[--] Generated logo placement using Python in Blender. These pictures are intended to be released as an open source database.
+
+      \end{itemize}
+  \resumeSubHeadingListEnd
+
+
+  \section{Research Experience}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+        {Artificial Intelligence Researcher}{January 2024 - June 2024}
+        {Harvey Mudd College, advised by Professor David Nembhard}{}
+        \begin{itemize}\small
+        \setlength\itemsep{0em}
+            \item[--] Creating a model that analyzes biometric EEG data to predict drone operator errors when identifying infrastructure faults.
+        \end{itemize}
+
+        \resumeSubheading
+        {Machine Learning Researcher}{May 2023 - January 2024}
+        {Claremont McKenna College, advised by Professor Mike Izbicki}{}
+        \begin{itemize}\small
+        \setlength\itemsep{0em}
+            \item[--] First author of paper at the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining’s Data Science Day.
+            \item[--] Finetuning large language models on high quality textbook data to improve performance by 25\% on low resource languages. 
+            \item[--] Decreased OpenAI API usage cost by 70x in the pipeline to compare baseline model performance to our modified models. Done through developing a program to calculate the lowest perplexity option of multiple choice quiz questions.
+        \end{itemize}
+
+        \resumeSubheading
+        {Computer Science Researcher}{September 2022 - May 2023}
+        {Harvey Mudd College, advised by Professor Lucas Bang}{}
+        \begin{itemize}\small
+        \setlength\itemsep{0em}
+          \item[--] Created a wearable device for a sensory augmentation experiment using Arduino. Led software and hardware development.
+          % \item[--] Integrated the project into a Pitzer College philosophy class to improve student learning with an interactive element.
+  
+        \end{itemize}
+        
+    \resumeSubHeadingListEnd
+
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Data Analyst}{January 2023 - Present}
+      {Claremont Graduate University}{}
+      \begin{itemize}\small
+      \setlength\itemsep{0em}
+        \item[--] Programming an interactive data visualization website using D3.js for 400+ cases of stolen artifacts for journalists and scholars.
+        % \item[--] Providing a resource for lawyers, journalists, and scholars to track information regarding 400+ cases of stolen artifacts.
+
+      \end{itemize}
+    \resumeSubheading
+    {Machine Learning Project Lead}{September 2022 - Present}
+    {P-ai Claremont Colleges Club}{}
+    \begin{itemize}\small
+    \setlength\itemsep{0em}
+      \item[--] Managing a team of 4, fully designed a computer vision project with transfer learning using ResNet with PyTorch.
+      % \item[--] P-okemon: Used black box optimization with fmin in Javascript and Pokemon API to reverse engineer information in a battle.
+
+    \end{itemize}
+  \resumeSubHeadingListEnd
+universal-darwin
+%-----------TEACHING-----------
+\section{Teaching}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Instructor}{January 2023 - Present}
+      {Self Employeed}{}
+      \begin{itemize}\small
+      \setlength\itemsep{0em}
+        \item[--] Held private sessions for 10+ students based on their individual needs. Developed unique curriculum tracks based on individual needs.
+        \item[--] Coached students from novice level to qualifying to nationals and winning tournaments. 
+
+      \end{itemize}
+    \resumeSubheading
+  
+    {Summer Instructor and Founder}{September 2022 - January 2023}
+    {The Debate Intensive (TDI) and Online Debate Institute (ODI)}{}
+    \begin{itemize}\small
+    \setlength\itemsep{0em}
+      \item[--] TDI: Lead a classroom of 20+ students for 3 consecutive summers. Taught argument generation, complexities in current events, and research skills. 
+      \item[--] ODI: Founded and developed curriculm for free debate camp, managed all admin tasks and logistics. Helped 200+ underresourced students save 900k+.
+    \end{itemize}
+    \end{itemize}
+  \resumeSubHeadingListEnd
+
+%-----------Awards-----------
+\section{Awards}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+          {\textbf{Harvey S. Mudd Scholar} $|$ \emph{Received merit award  due to being identified as in the top 2\% of the applicant pool.}}{}
+    \resumeProjectHeading
+          {\textbf{Top 4 Debater in the Country} $|$ \emph{Placed in the top 4 at Nationals for Lincoln-Douglas debate, after qualifying out of 20,000+.}}{}
+    % \resumeProjectHeading
+    %       {\textbf{300+ Volunteer Hours} $|$ \emph{At 30+ organizations through the National Charity League. Received Presidential Bronze Volunteer Award.}}{}
+    %       \resumeProjectHeading
+    %       {\textbf{Nonprofit Founder} $|$ \emph{Founded and ran a 2-week debate camp nonprofit for 200+ underprivileged debaters during COVID-19 for three years.}}{}
+
+    \resumeSubHeadingListEnd
+  
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Skills and Interests}
+\begin{itemize}[leftmargin=0.15in, label={}]
+   \small{\item{
+    \textbf{Skills:}{ Python, Java, C++, JavaScript, HTML, CSS, R, LaTeX, JSON, Linux, Git, Natural Language Processing, Excel.} \\
+    \textbf{Libraries:}{ NumPy, Matplotlib, PyTorch, Pandas, Beautiful Soup, OpenCV, Selenium, Gradio.} \\
+    \textbf{Interests:}{ Building mechanical keyboards, running, photography, debate coaching.} \\
+    % \textbf{Frameworks:}{ Hugo, WordPress} \\
+    % \textbf{Developer Tools:}{ CHANGE Visual Studio Code, PyCharm, IntelliJ, Eclipse, Xcode, RStudio, Arduino} \\
+   }}
+\end{itemize}
+
+%-------------------------------------------
+\end{document}
