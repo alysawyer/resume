@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1723767144.09005 "/Users/asawyer/Documents/resume/sawyer-resume.tex" "sawyer-resume.pdf" "sawyer-resume" 1723767144.57177 0
-  "/Users/asawyer/Documents/resume/sawyer-resume.tex" 1723767143.39784 10950 fda187f715f47602346786b9aa102259 ""
+["pdflatex"] 1723767179.89065 "/Users/asawyer/Documents/resume/sawyer-resume.tex" "sawyer-resume.pdf" "sawyer-resume" 1723767180.35711 0
+  "/Users/asawyer/Documents/resume/sawyer-resume.tex" 1723767179.20211 12316 048a18196a355775f320253365e01437 ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/base/8r.enc" 1165713224 4850 80dc9bab7f31fb78a000ccfed0e27cab ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5brands0.enc" 1622837620 2920 d63721872b8c77041b88e51b8f7c291d ""
   "/usr/local/texlive/2024/texmf-dist/fonts/enc/dvips/fontawesome5/fa5free1.enc" 1622837620 3042 0e2b14b9be7d01075a4c4591d5d1781b ""
@@ -101,9 +101,9 @@
   "/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1721326941.30373 5467645 128b85b7cde5f5edc5cb7f1dd7ff8736 ""
   "/usr/local/texlive/2024/texmf-var/web2c/pdftex/pdflatex.fmt" 1721326860 8221421 f0d263de4ff76b2e5587890be3ef52c8 ""
   "/usr/local/texlive/2024/texmf.cnf" 1710266656 577 e590dabc9e28c5b61546e15f63eebcdf ""
-  "sawyer-resume.aux" 1723767144.51288 713 b6e95ddf33a523db428216038ea35ccc "pdflatex"
-  "sawyer-resume.out" 1723767144.51699 554 7b591856c8f25dbfb5af70bb49d42b32 "pdflatex"
-  "sawyer-resume.tex" 1723767143.39784 10950 fda187f715f47602346786b9aa102259 ""
+  "sawyer-resume.aux" 1723767180.3016 724 ba041a464b7ab6b8f5ff5375f5178fe6 "pdflatex"
+  "sawyer-resume.out" 1723767180.30419 612 788d978892912f8fc47b63a8d518e3f4 "pdflatex"
+  "sawyer-resume.tex" 1723767179.20211 12316 048a18196a355775f320253365e01437 ""
   (generated)
   "sawyer-resume.aux"
   "sawyer-resume.log"
