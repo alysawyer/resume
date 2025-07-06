@@ -1,10 +1,4 @@
-# Ignore output files
 *.out
-
-# Ignore log files
 *.log
-
-# Ignore auxiliary files
 *.aux
-
-*.gx
+*.gz
